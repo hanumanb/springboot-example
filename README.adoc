@@ -1,0 +1,11 @@
+#Build the spring boot application 
+mvn clean install 
+
+# Execute the Spring boot application 
+mvn spring-boot:run
+
+# Checking the health of application 
+http://localhost:8080/actuator/health
+
+#Hitting a Rest Controller 
+http://localhost:8080/hello
